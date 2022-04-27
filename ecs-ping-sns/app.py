@@ -22,7 +22,7 @@ def send_message():
         Message=ping_message
             )
     message_id = response['MessageId']
-    logger.info("Published message: %s.", message_id)
+    logger.info("Published message by Vishnu: %s.", message_id)
     return message_id
 
 if __name__ == '__main__':
