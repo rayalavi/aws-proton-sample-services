@@ -38,6 +38,7 @@ def delete_queue_message(receipt_handle):
 if __name__ == '__main__':
     while True:
         messages = receive_queue_message()
+        print("Vishnu Messages")
         print(messages)
         
         if "Messages" in messages: 
